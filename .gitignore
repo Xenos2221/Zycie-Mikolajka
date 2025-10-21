@@ -1,0 +1,85 @@
+# Unreal Engine standard ignores
+
+# Compiled object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled dynamic libraries
+*.dll
+*.dylib
+*.so
+
+# Compiled static libraries
+*.lib
+*.a
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Build folders
+[Bb]inaries/
+[Bb]uild/
+[Dd]erivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+.idea/
+
+# Cache files
+*_BuiltData.uasset
+*_BuiltData.uexp
+
+# Precompiled assets and shaders
+DerivedDataCache/
+ShaderCache/
+Collections/
+
+# Configuration backups
+*.log
+*.tlog
+*.pdb
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Unreal auto-generated
+Script/
+CrashReportClient/
+UnrealBuildTool/
+
+# Plugin/Marketplace build folders
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+
+# If using Rider or JetBrains IDEs
+.idea/
+*.sln.iml
+
+# If using Visual Studio
+*.VC.db
+*.VC.opendb
+*.sdf
+*.suo
+*.user
+*.sln.docstates
+
+# Packaged builds
+*.pak
+*.sig
+*.ini.tmp
+
+# Local files
+*.local
+*.swp
+*.tmp
+
+# Optional: ignore the .vsconfig (keeps per-developer setups)
+.vsconfig
