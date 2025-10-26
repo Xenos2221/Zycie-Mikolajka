@@ -1,0 +1,683 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31314.256
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Automation", "Automation", "{0BFBE63A-B98A-3411-8EEB-8918FEC737B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{233774A8-CC9D-3FA9-86D1-90573E92B704}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Games", "Games", "{DE1F8B53-6C02-3C13-9101-A7C8D96F3FF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programs", "Programs", "{A338B9E2-A559-34BE-A46D-F789DD488FAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules", "Rules", "{C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{57713676-9DBE-331C-AD10-26632AC9EE0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnrealBuildTool.Plugins", "UnrealBuildTool.Plugins", "{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UE5", "Intermediate\ProjectFiles\UE5.vcxproj", "{9DC1FE63-F207-3C6C-9806-9E26ABCA6338}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZycieMikolajka", "Intermediate\ProjectFiles\ZycieMikolajka.vcxproj", "{1B6588CF-0D80-3C83-B17A-070BA173EF07}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49} = {D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnrealBuildTool", "..\..\..\UE_5.3\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.csproj", "{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationTool", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\AutomationTool.csproj", "{FF49779B-4C6F-3DF2-8773-7E49BD94D107}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Android\Android.Automation.csproj", "{84AB7609-AD83-3E26-997C-313CFAB1289F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apple.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Apple\Apple.Automation.csproj", "{D85BD681-1E93-3368-AA36-389136D43393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationUtils.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\AutomationUtils\AutomationUtils.Automation.csproj", "{8E58E614-9E77-3688-8B67-28BB6D787DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildGraph.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\BuildGraph\BuildGraph.Automation.csproj", "{78E2EC81-3043-30D7-BE9D-ECD1A8439076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookedEditor.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\CookedEditor\CookedEditor.Automation.csproj", "{B335C88D-D75A-3336-B97D-3C26055A73BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrowdinLocalization.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\CrowdinLocalization\CrowdinLocalization.Automation.csproj", "{A7B711FA-A032-3DD2-9134-C4015B34AA04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gauntlet.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Gauntlet\Gauntlet.Automation.csproj", "{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOS.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\IOS\IOS.Automation.csproj", "{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linux.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Linux\Linux.Automation.csproj", "{33089CBF-0C70-3668-A24C-0A0A2088EDEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Localization.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Localization\Localization.Automation.csproj", "{11D8934E-26AF-35E0-A1FD-301A5C7DD791}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LowLevelTests.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\LowLevelTests\LowLevelTests.Automation.csproj", "{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mac.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Mac\Mac.Automation.csproj", "{5A578526-AB65-3FCF-99D4-38F5BD6BF953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSkyLocalization.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\OneSkyLocalization\OneSkyLocalization.Automation.csproj", "{0893F218-88BB-3260-A6AA-1445F7ED249D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutomationScripts.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Scripts\AutomationScripts.Automation.csproj", "{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartlingLocalization.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\SmartlingLocalization\SmartlingLocalization.Automation.csproj", "{45185CB9-24F1-30C1-A454-85B7106DEC52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SteamDeck.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\SteamDeck\SteamDeck.Automation.csproj", "{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TVOS.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\TVOS\TVOS.Automation.csproj", "{FFA8459F-8D69-33F0-9523-445704FBC146}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Turnkey.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Turnkey\Turnkey.Automation.csproj", "{D0E01742-B735-3C5D-BA80-29C1AF04D453}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\Win\Win.Automation.csproj", "{D1809021-9B41-3797-A1B6-EB66303B047D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLocLocalization.Automation", "..\..\..\UE_5.3\Engine\Source\Programs\AutomationTool\XLocLocalization\XLocLocalization.Automation.csproj", "{D8835BC2-81C8-31DC-B69D-8F050572BDBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptGeneratorUbtPlugin.ubtplugin", "..\..\..\UE_5.3\Engine\Plugins\ScriptPlugin\Source\ScriptGeneratorUbtPlugin\ScriptGeneratorUbtPlugin.ubtplugin.csproj", "{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.AspNet", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.AspNet\EpicGames.AspNet.csproj", "{38838519-58EA-3487-B9EA-02C58899811B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Box", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Box\EpicGames.Box.csproj", "{B10BC3D6-FE0A-34DF-B900-2CB946205D34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Build", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Build\EpicGames.Build.csproj", "{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.BuildGraph", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.BuildGraph\EpicGames.BuildGraph.csproj", "{0F57D515-2288-3489-94D1-96FA82D8BF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Core", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Core\EpicGames.Core.csproj", "{89B25006-8097-321E-8418-7D38E5E13274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Horde", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Horde\EpicGames.Horde.csproj", "{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.IoHash", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.IoHash\EpicGames.IoHash.csproj", "{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Jupiter", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Jupiter\EpicGames.Jupiter.csproj", "{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.MongoDB", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.MongoDB\EpicGames.MongoDB.csproj", "{579F2462-E643-3C57-88AE-8A3D2FD31BED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.MsBuild", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.MsBuild\EpicGames.MsBuild.csproj", "{57F58C7D-047D-3887-9887-3A98E6313C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.OIDC", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.OIDC\EpicGames.OIDC.csproj", "{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Oodle", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Oodle\EpicGames.Oodle.csproj", "{1164EA14-5636-352E-8BCA-90EC280E992C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Perforce\EpicGames.Perforce.csproj", "{12232A36-7577-3001-8CA4-3C7F14CBD8AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce.Fixture", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Perforce.Fixture\EpicGames.Perforce.Fixture.csproj", "{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Perforce.Managed", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Perforce.Managed\EpicGames.Perforce.Managed.csproj", "{AF735758-1D0A-3499-8EE3-94CE5F717603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Redis", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Redis\EpicGames.Redis.csproj", "{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Serialization", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Serialization\EpicGames.Serialization.csproj", "{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Slack", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Slack\EpicGames.Slack.csproj", "{8D93629A-7001-3BC5-805C-91D96A7AE69A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.Tracing", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.Tracing\EpicGames.Tracing.csproj", "{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicGames.UHT", "..\..\..\UE_5.3\Engine\Source\Programs\Shared\EpicGames.UHT\EpicGames.UHT.csproj", "{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketplaceRules", "..\..\..\UE_5.3\Engine\Intermediate\Build\BuildRulesProjects\MarketplaceRules\MarketplaceRules.csproj", "{56A2C801-466C-34C9-B274-DDD074E003CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UE5ProgramRules", "..\..\..\UE_5.3\Engine\Intermediate\Build\BuildRulesProjects\UE5ProgramRules\UE5ProgramRules.csproj", "{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UE5Rules", "..\..\..\UE_5.3\Engine\Intermediate\Build\BuildRulesProjects\UE5Rules\UE5Rules.csproj", "{34EED8AA-4781-3F61-9A52-A1C43C871751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZycieMikolajkaModuleRules", "Intermediate\Build\BuildRulesProjects\ZycieMikolajkaModuleRules\ZycieMikolajkaModuleRules.csproj", "{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visualizers", "Visualizers", "{1CCEC849-CC72-4C59-8C36-2F7C38706D4C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natvis = ..\..\..\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natvis
+		..\..\..\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter = ..\..\..\UE_5.3\Engine\Extras\VisualStudioDebugging\Unreal.natstepfilter
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugGame Editor|Win64 = DebugGame Editor|Win64
+		DebugGame|Win64 = DebugGame|Win64
+		Development Editor|Win64 = Development Editor|Win64
+		Development|Win64 = Development|Win64
+		Shipping|Win64 = Shipping|Win64
+	EndGlobalSection
+	# UnrealVS Section
+	GlobalSection(ddbf523f-7eb6-4887-bd51-85a714ff87eb) = preSolution
+		AvailablePlatforms=Win64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DC1FE63-F207-3C6C-9806-9E26ABCA6338}.DebugGame Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win64
+		{9DC1FE63-F207-3C6C-9806-9E26ABCA6338}.DebugGame|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win64
+		{9DC1FE63-F207-3C6C-9806-9E26ABCA6338}.Development Editor|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win64
+		{9DC1FE63-F207-3C6C-9806-9E26ABCA6338}.Development|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win64
+		{9DC1FE63-F207-3C6C-9806-9E26ABCA6338}.Shipping|Win64.ActiveCfg = BuiltWithUnrealBuildTool|Win64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.DebugGame Editor|Win64.ActiveCfg = DebugGame_Editor|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.DebugGame Editor|Win64.Build.0 = DebugGame_Editor|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.DebugGame|Win64.ActiveCfg = DebugGame|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.DebugGame|Win64.Build.0 = DebugGame|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.Development Editor|Win64.ActiveCfg = Development_Editor|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.Development Editor|Win64.Build.0 = Development_Editor|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.Development|Win64.ActiveCfg = Development|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.Development|Win64.Build.0 = Development|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.Shipping|Win64.ActiveCfg = Shipping|x64
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07}.Shipping|Win64.Build.0 = Shipping|x64
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.Development|Win64.ActiveCfg = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.Development|Win64.Build.0 = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49}.Shipping|Win64.Build.0 = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.Development|Win64.ActiveCfg = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.Development|Win64.Build.0 = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107}.Shipping|Win64.Build.0 = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.Development|Win64.ActiveCfg = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.Development|Win64.Build.0 = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{84AB7609-AD83-3E26-997C-313CFAB1289F}.Shipping|Win64.Build.0 = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.Development|Win64.ActiveCfg = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.Development|Win64.Build.0 = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{D85BD681-1E93-3368-AA36-389136D43393}.Shipping|Win64.Build.0 = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.Development|Win64.ActiveCfg = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.Development|Win64.Build.0 = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5}.Shipping|Win64.Build.0 = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.Development|Win64.ActiveCfg = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.Development|Win64.Build.0 = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076}.Shipping|Win64.Build.0 = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.Development|Win64.ActiveCfg = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.Development|Win64.Build.0 = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{B335C88D-D75A-3336-B97D-3C26055A73BB}.Shipping|Win64.Build.0 = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.Development|Win64.ActiveCfg = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.Development|Win64.Build.0 = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04}.Shipping|Win64.Build.0 = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.Development|Win64.ActiveCfg = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.Development|Win64.Build.0 = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F}.Shipping|Win64.Build.0 = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.Development|Win64.ActiveCfg = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.Development|Win64.Build.0 = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8}.Shipping|Win64.Build.0 = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.Development|Win64.ActiveCfg = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.Development|Win64.Build.0 = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC}.Shipping|Win64.Build.0 = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.Development|Win64.ActiveCfg = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.Development|Win64.Build.0 = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791}.Shipping|Win64.Build.0 = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.Development|Win64.ActiveCfg = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.Development|Win64.Build.0 = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F}.Shipping|Win64.Build.0 = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.Development|Win64.ActiveCfg = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.Development|Win64.Build.0 = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953}.Shipping|Win64.Build.0 = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.Development|Win64.ActiveCfg = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.Development|Win64.Build.0 = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{0893F218-88BB-3260-A6AA-1445F7ED249D}.Shipping|Win64.Build.0 = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.Development|Win64.ActiveCfg = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.Development|Win64.Build.0 = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0}.Shipping|Win64.Build.0 = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.Development|Win64.ActiveCfg = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.Development|Win64.Build.0 = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{45185CB9-24F1-30C1-A454-85B7106DEC52}.Shipping|Win64.Build.0 = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.Development|Win64.ActiveCfg = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.Development|Win64.Build.0 = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C}.Shipping|Win64.Build.0 = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.Development|Win64.ActiveCfg = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.Development|Win64.Build.0 = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{FFA8459F-8D69-33F0-9523-445704FBC146}.Shipping|Win64.Build.0 = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.Development|Win64.ActiveCfg = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.Development|Win64.Build.0 = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453}.Shipping|Win64.Build.0 = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.Development|Win64.ActiveCfg = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.Development|Win64.Build.0 = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{D1809021-9B41-3797-A1B6-EB66303B047D}.Shipping|Win64.Build.0 = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.Development|Win64.ActiveCfg = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.Development|Win64.Build.0 = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE}.Shipping|Win64.Build.0 = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.Development|Win64.ActiveCfg = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.Development|Win64.Build.0 = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E}.Shipping|Win64.Build.0 = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.Development|Win64.ActiveCfg = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.Development|Win64.Build.0 = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{38838519-58EA-3487-B9EA-02C58899811B}.Shipping|Win64.Build.0 = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.Development|Win64.ActiveCfg = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.Development|Win64.Build.0 = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34}.Shipping|Win64.Build.0 = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.Development|Win64.ActiveCfg = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.Development|Win64.Build.0 = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2}.Shipping|Win64.Build.0 = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.Development|Win64.ActiveCfg = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.Development|Win64.Build.0 = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E}.Shipping|Win64.Build.0 = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.Development|Win64.ActiveCfg = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.Development|Win64.Build.0 = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{89B25006-8097-321E-8418-7D38E5E13274}.Shipping|Win64.Build.0 = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.Development|Win64.ActiveCfg = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.Development|Win64.Build.0 = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE}.Shipping|Win64.Build.0 = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.Development|Win64.ActiveCfg = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.Development|Win64.Build.0 = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0}.Shipping|Win64.Build.0 = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.Development|Win64.ActiveCfg = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.Development|Win64.Build.0 = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5}.Shipping|Win64.Build.0 = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.Development|Win64.ActiveCfg = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.Development|Win64.Build.0 = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED}.Shipping|Win64.Build.0 = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.Development|Win64.ActiveCfg = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.Development|Win64.Build.0 = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{57F58C7D-047D-3887-9887-3A98E6313C98}.Shipping|Win64.Build.0 = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.Development|Win64.ActiveCfg = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.Development|Win64.Build.0 = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A}.Shipping|Win64.Build.0 = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.Development|Win64.ActiveCfg = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.Development|Win64.Build.0 = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{1164EA14-5636-352E-8BCA-90EC280E992C}.Shipping|Win64.Build.0 = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.Development|Win64.ActiveCfg = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.Development|Win64.Build.0 = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA}.Shipping|Win64.Build.0 = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.Development|Win64.ActiveCfg = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.Development|Win64.Build.0 = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6}.Shipping|Win64.Build.0 = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.Development|Win64.ActiveCfg = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.Development|Win64.Build.0 = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{AF735758-1D0A-3499-8EE3-94CE5F717603}.Shipping|Win64.Build.0 = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.Development|Win64.ActiveCfg = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.Development|Win64.Build.0 = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A}.Shipping|Win64.Build.0 = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.Development|Win64.ActiveCfg = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.Development|Win64.Build.0 = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA}.Shipping|Win64.Build.0 = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.Development|Win64.ActiveCfg = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.Development|Win64.Build.0 = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A}.Shipping|Win64.Build.0 = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.Development|Win64.ActiveCfg = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.Development|Win64.Build.0 = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1}.Shipping|Win64.Build.0 = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.Development|Win64.ActiveCfg = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.Development|Win64.Build.0 = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5}.Shipping|Win64.Build.0 = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.Development|Win64.ActiveCfg = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.Development|Win64.Build.0 = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{56A2C801-466C-34C9-B274-DDD074E003CF}.Shipping|Win64.Build.0 = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.Development|Win64.ActiveCfg = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.Development|Win64.Build.0 = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC}.Shipping|Win64.Build.0 = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.Development|Win64.ActiveCfg = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.Development|Win64.Build.0 = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{34EED8AA-4781-3F61-9A52-A1C43C871751}.Shipping|Win64.Build.0 = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.DebugGame Editor|Win64.ActiveCfg = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.DebugGame Editor|Win64.Build.0 = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.DebugGame|Win64.ActiveCfg = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.DebugGame|Win64.Build.0 = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.Development Editor|Win64.ActiveCfg = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.Development Editor|Win64.Build.0 = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.Development|Win64.ActiveCfg = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.Development|Win64.Build.0 = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.Shipping|Win64.ActiveCfg = Development|Any CPU
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE}.Shipping|Win64.Build.0 = Development|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DC1FE63-F207-3C6C-9806-9E26ABCA6338} = {233774A8-CC9D-3FA9-86D1-90573E92B704}
+		{1B6588CF-0D80-3C83-B17A-070BA173EF07} = {DE1F8B53-6C02-3C13-9101-A7C8D96F3FF6}
+		{D663DF3C-23C4-3AA5-9F59-F6F62F09EE49} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{FF49779B-4C6F-3DF2-8773-7E49BD94D107} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{0BFBE63A-B98A-3411-8EEB-8918FEC737B3} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{57713676-9DBE-331C-AD10-26632AC9EE0C} = {A338B9E2-A559-34BE-A46D-F789DD488FAD}
+		{84AB7609-AD83-3E26-997C-313CFAB1289F} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{D85BD681-1E93-3368-AA36-389136D43393} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{8E58E614-9E77-3688-8B67-28BB6D787DC5} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{78E2EC81-3043-30D7-BE9D-ECD1A8439076} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{B335C88D-D75A-3336-B97D-3C26055A73BB} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{A7B711FA-A032-3DD2-9134-C4015B34AA04} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{A6140E92-9F31-3B61-9ABA-BE308C5F3C2F} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{D232D9BB-3D5D-31B4-B2ED-96BE3E0E28E8} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{33089CBF-0C70-3668-A24C-0A0A2088EDEC} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{11D8934E-26AF-35E0-A1FD-301A5C7DD791} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{6F647AE7-528C-3EEC-9375-6AA76EF9E17F} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{5A578526-AB65-3FCF-99D4-38F5BD6BF953} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{0893F218-88BB-3260-A6AA-1445F7ED249D} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{34C2C9D7-F36A-3C24-A3B5-2BB5EC730DE0} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{45185CB9-24F1-30C1-A454-85B7106DEC52} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{B13F4EAE-A7D9-30B2-8D2D-3A86A49A6A6C} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{FFA8459F-8D69-33F0-9523-445704FBC146} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{D0E01742-B735-3C5D-BA80-29C1AF04D453} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{D1809021-9B41-3797-A1B6-EB66303B047D} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{D8835BC2-81C8-31DC-B69D-8F050572BDBE} = {0BFBE63A-B98A-3411-8EEB-8918FEC737B3}
+		{AC6984B2-189A-3EE7-80EE-AEB9E788C89E} = {7B5CFB44-F0FB-31DF-AE62-C3C096A29A7B}
+		{38838519-58EA-3487-B9EA-02C58899811B} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{B10BC3D6-FE0A-34DF-B900-2CB946205D34} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{5D863D52-9C5C-32DF-9DA4-4AC02E14F0B2} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{0F57D515-2288-3489-94D1-96FA82D8BF3E} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{89B25006-8097-321E-8418-7D38E5E13274} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{3B5F5098-B929-3E08-A57D-AE3B1EDCFEFE} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{154C5FC5-FC17-3E24-ADB1-31F3A26C36E0} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{B0B5BF9E-D52D-3048-B117-B3AAB5C0DEF5} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{579F2462-E643-3C57-88AE-8A3D2FD31BED} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{57F58C7D-047D-3887-9887-3A98E6313C98} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{C02C2335-FFA9-3F25-8F3D-EFBAE1F42D3A} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{1164EA14-5636-352E-8BCA-90EC280E992C} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{12232A36-7577-3001-8CA4-3C7F14CBD8AA} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{FD2AE55B-AF75-3BD3-BA28-C4108D78AEB6} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{AF735758-1D0A-3499-8EE3-94CE5F717603} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{DDD890B6-6AA9-3584-9A45-5680FB83FA4A} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{95B52905-26C7-3E0A-B8BB-5F8EB75CEECA} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{8D93629A-7001-3BC5-805C-91D96A7AE69A} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{B0DC7A8D-FABF-3DF3-AFEC-9A32B0B339A1} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{9E907A5C-E8DD-3A64-B5AC-53DACCAF66B5} = {57713676-9DBE-331C-AD10-26632AC9EE0C}
+		{56A2C801-466C-34C9-B274-DDD074E003CF} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
+		{1D6C952B-E17F-3E90-862A-9F9F3B570ABC} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
+		{34EED8AA-4781-3F61-9A52-A1C43C871751} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
+		{05639C2E-17EB-3ACE-8D5F-7BEABA7A3DCE} = {C2F57ECE-B26F-39D8-BDA7-C1D40BD8F180}
+	EndGlobalSection
+EndGlobal
